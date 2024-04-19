@@ -1,0 +1,36 @@
+.header{
+	background-color: $bg-primary;
+	position: fixed;
+	width: 100%;
+}
+
+.header__container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	color: $color-primary;
+	font-size: 30px;
+}
+.navigation__list{
+	display: flex;
+	color: $color-primary;
+}
+
+.navigation__item{
+	&:not(:last-child){
+		margin-right: 10px;
+	}
+}
+
+.navigation__link{
+	color: $color-primary;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+//--navigation__link-active
+.--navigation__link-active{
+	color: red;
+}

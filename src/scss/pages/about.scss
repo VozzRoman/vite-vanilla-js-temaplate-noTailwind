@@ -1,0 +1,28 @@
+@import '../varaibles';
+
+.home-page{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-page__text{
+	font-size: 80px;
+	font-weight: 600;
+}
+.--second-screen{
+	background-color: gray;
+}
+
+//Screen Page
+.animated {
+	opacity: 0;
+      transform: translateX(-100%);
+		transition: all 300ms linear;
+		&.animate-in {
+	opacity: 1;
+	transform: translateX(0);
+    }
+    }
